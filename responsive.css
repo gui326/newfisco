@@ -1,0 +1,35 @@
+@media (max-width: 375px){
+    .titleSobre{
+        font-size: 50px!important;
+    }
+    .cardPatternGrey{
+        margin-top: 5%!important;
+    }
+    .cardPatternPurple{
+        margin-top: 5%!important;
+    }
+    #sectionContato{
+        background-size: auto!important;
+    }
+    .titleLogin{
+        font-size: 40px!important; 
+    }
+    .subtitleLogin{
+        font-size: 20px!important;
+        position: unset!important;
+    }
+    .cardLogin{
+        padding: 1%!important;
+        width: 100%!important;
+    }
+    #bodyLogin{
+        background-size: auto!important;
+    }
+    #menuPrincipal{
+        height: unset!important;
+    }
+    #leftSideContent{
+        margin-left: unset!important;
+        padding-right: unset!important;
+    }
+}

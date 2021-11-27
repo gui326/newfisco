@@ -14,6 +14,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
   
   <link href="main.css" rel="stylesheet">
+  <link href="responsive.css" rel="stylesheet">
 
   <link rel="shortcut icon" href="favicon.ico" />
 </head>
@@ -25,15 +26,15 @@
       <p style="font-weight: 800;position: relative;top: 8px;left: 20%;"><span class="colorPatternPrimary">New</span><span style="text-shadow: 3px 3px #80008036;">Fisco</span></p>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-      <span class="naicon.html
-    </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav" style="margin-left: auto;">
         <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="sobre">Sobre nós</a>
+            <a class="nav-link" href="sobre.html">Sobre nós</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="contato.html">Contato</a>
@@ -52,16 +53,21 @@
         .zoom:hover{
             transform: scale(1.1) rotate(10deg);
         }
+        .titleSobre{
+            color: #444;
+            font-size: 80px;
+            font-weight: 800;
+        }
     </style>
 
 
     <section>
     <div class="container-fluid mt-3" style="padding: 2% 7%;">
         <div class="row">
-        <div class="m-0 p-0 col-xl-5 text-end">
-            <p style="color: #444; font-size: 80px; font-weight: 800" class="mt-5"><span class="colorPatternPrimary">New</span>Fisco</p>
+        <div class="m-0 p-0 col-xl-5 text-xl-end text-center">
+            <h1 class="titleSobre mt-5"><span class="colorPatternPrimary">New</span>Fisco</h1>
         </div>
-        <div class="m-0 p-0 col-xl-7 text-start">
+        <div class="m-0 p-0 col-xl-7">
             <p style="color: #979797;line-height: 35px; margin-top: 20%; font-size: 30px; font-weight: 700">Uma nova solução para sua empresa. Plataforma web para gerenciamento de suas notas fiscais e geraçao de Sintegra.</p>
         </div>
         </div>
@@ -70,7 +76,7 @@
 
     <section>
         <div class="container-fluid mt-3" style="padding: 0 7%;">
-            <p style="color: #444; margin-bottom: 3%; font-size: 20px; font-weight: 800">Desenvolvido por</p>
+            <p class="text-center text-xl-start" style="color: #444; margin-bottom: 3%; font-size: 20px; font-weight: 800">Desenvolvido por</p>
 
             <div class="row mb-5">
                 <div class="col-xl-3" style="padding: 0 25px;">
